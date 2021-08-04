@@ -10,6 +10,8 @@ The project includes:
 * image2products.json - product count in each image
 * metrics.json - evaluation metrics of test dataset
 
+![Object Detection Sample](assets/object_detection.jpg)
+
 # Getting started
 
 The code is developed using google colab and google drive as the storage. Please ensure there is atleast 10 GB storage available in the google drive for processing.
