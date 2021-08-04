@@ -44,6 +44,29 @@ The code is developed using google colab and google drive as the storage. Please
 
 ![Evaluation Metrics](asset/tfod_metric.png)
 
+# Parameters used
+
+* Number of classes - 11 
+* training dataset - 283
+* testing dataset - 71
+* Number of epoch - 1
+* Number of steps - 10,000
+* Maximum total detection 100
+* training batch size - 4
+* Base learning rate - 0.04
+* Minimum level of anchors - 3
+* Maximum level of anchors - 7
+* Anchor aspect ratios - 1, 2, 0.5 
+
+## Question and answer
+* What is the purpose of using multiple anchors per feature map cell?
+      There are 2 main reasons to have multiple anchors per feature map. They are 1) in some cases the object to be detected may have different orientation. Having multiple anchors with different aspect ratio helps this. 2) in some cases the odject may different scales depending on the distance from the camera or because of resolution difference. In this scenario having multiple depth will take care of the problem.
+      
+* Does this problem require multiple anchors? Please justify your answer.
+       Though all the objects in the given dataset have similar aspect ratio some objects were smaller or bigger than other objects. Also some images have only 2 rows of shelf and some images have 5 or 6 rows of shelf making it necessary for using multiple anchors.
+
+
+
 
 
 
