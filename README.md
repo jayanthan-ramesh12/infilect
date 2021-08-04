@@ -40,7 +40,7 @@ The code is developed using google colab and google drive as the storage. Please
 * Import the model file from google drive
 * Run the evaluation metrics using linux commands
 * generate the metrics.json file from the outputs
-* Further the eval folder by performing step can be used to view the result in tensorboard(not included in the code)
+* Further the eval folder created by performing step 2 can be used to view the result in tensorboard(not included in the code)
 ![Evaluation Metrics](asset/tfod_metric.png)
 
 
